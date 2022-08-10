@@ -8,4 +8,3 @@ Feature: Create Token
     Given path '/services'
     When method GET
     Then status 200
-    * def authToken = response.result.access_token
